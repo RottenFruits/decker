@@ -25,6 +25,8 @@ docker build -t decker .
 docker run --rm -p 8800:8000 decker
 ```
 
+![p1](https://raw.githubusercontent.com/RottenFruits/decker/master/img/p1.png)
+
 - open browser
     - http://localhost:8800/
 
