@@ -34,7 +34,7 @@ docker run --rm -p 8800:8000 decker
 - docker image build
 ```
 docker build -t decker .
-docker run --rm -p 8800:8000 -v your_volume_path:/app decker /bin/sh
+docker run --rm -it -p 8800:8000 -v your_volume_path:/app decker /bin/sh
 ```
 
 - application build
